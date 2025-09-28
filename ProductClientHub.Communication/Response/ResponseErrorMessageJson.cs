@@ -9,5 +9,10 @@
             //Errors = new List<string> { message };
             Errors = [message]; //Formar simplificada de intanciar uma lista com um item
         }
+
+        public ResponseErrorMessageJson(List<string> messages)
+        {
+            Errors = messages;
+        }
     }
 }
